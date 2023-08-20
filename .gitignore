@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.DS_Store
+./node_modules
+
+appsscript.json
+.clasp.json
+# Ignore environment-specific files
+*.env
