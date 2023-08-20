@@ -7,3 +7,4 @@ appsscript.json
 .clasp.json
 # Ignore environment-specific files
 *.env
+.gitignore

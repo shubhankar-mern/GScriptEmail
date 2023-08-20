@@ -11,7 +11,7 @@ const getSrcPath = (filePath) => {
   };
 
 module.exports = {
-  mode: 'none',  
+  mode: 'production',  
   entry: getSrcPath('/index.js'), // Replace with your entry file
   output: {
     filename: 'code.js', // Output bundle file name

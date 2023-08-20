@@ -6,10 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "transpile": "npx babel src --out-dir dist",
-    "bundle": "npx webpack --mode development",
+    "bundle": "npx webpack --mode production",
     "upload": "npx clasp push",
     "dev": "npm run transpile && npm run bundle",
-    "deploy": "npm run dev && npm run upload"
+    "redeploywebapp": "clasp deploy -i AKfycbzQkqpnGgX25LSDiXE9hrIUp0IhAByj0jhiWyvoy7Bj5-8SXys-iN7eJylBHVEd27RnRw",
+    "deploy": "npm run dev && npm run upload && npx run redeploywebapp"
   },
   "author": "Shubhankar Singh",
   "license": "ISC",
